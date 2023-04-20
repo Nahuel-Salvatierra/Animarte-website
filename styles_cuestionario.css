@@ -1,0 +1,18 @@
+.logo
+{
+    width: 100px;
+    border-color: black;
+    border-style: solid ;
+    border-radius:50%;
+    background-color: white;
+    
+}
+
+input_icon
+{
+    position: absolute;
+    margin-top: 1px;
+    margin-left: 1px;
+    font-size: 18px;
+    color: black
+}
