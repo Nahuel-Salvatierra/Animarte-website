@@ -17,7 +17,8 @@
 </head>
 
 <body>
-  <main>
+  <header>
+    
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <img
         src="https://http2.mlstatic.com/storage/mshops-appearance-api/images/86/160126086/logo-2021100113545352800.png"
@@ -56,6 +57,9 @@
                 </li>
               </ul>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"> <i class="bi bi-cart4"></i> </a>                                             <!--Icono Carrito-->
+            </li>
           </ul>
           <form class="d-flex" role="search">
             <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search" />
@@ -66,6 +70,52 @@
         </div>
       </div>
     </nav>
+  </header>
+
+
+
+  <main>
+
+    <!--Carousel//Flayer-->
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">                                            <!--Indicador donde hay que cambiarlos por puntos. -->
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 3"></button>
+      </div>                                                                        
+      
+      <div class="carousel-inner">                                                  <!-- Lugar donde van las Imágenes -->
+        <div class="carousel-item active" data-bs-interval="2000">                  <!-- Tiempo entre cada imagen. 1000 = 1s -->
+          <img src="https://http2.mlstatic.com/D_NQ_NP_730031-MLA47731648639_102021-OO.webp" class="d-block w-100" alt="Cuadernillos Personalizados">
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="https://http2.mlstatic.com/D_NQ_NP_770348-MLA47731630762_102021-OO.webp" class="d-block w-100" alt="Venta por Mayor y Menor">
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="https://http2.mlstatic.com/D_NQ_NP_742865-MLA47731638738_102021-OO.webp" class="d-block w-100" alt="Tapas y Plásticas">
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="https://http2.mlstatic.com/D_NQ_NP_977345-MLA47731630774_102021-OO.webp" class="d-block w-100" alt="Cuaderno para Dibujos"> 
+        </div>
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev"> <!-- Boton Anterior -->
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden"> Anterior </span>
+      </button>
+
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next"> <!-- Boton Siguiente -->
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden"> Siguiente </span>
+      </button>                                                                                                                 
+
+    </div>
+
+
+
+
+
     <div class="container text-center">
       <div class="row align-items-center">
         <div class="col-2">
@@ -89,6 +139,20 @@
       </div>
     </div>
   </main>
+
+
+
+
+  <Footer>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda blanditiis quo, ducimus quod id nemo numquam obcaecati suscipit reprehenderit eveniet tempore ut praesentium qui deleniti dolores. Laboriosam optio doloremque sed!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda blanditiis quo, ducimus quod id nemo numquam obcaecati suscipit reprehenderit eveniet tempore ut praesentium qui deleniti dolores. Laboriosam optio doloremque sed!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda blanditiis quo, ducimus quod id nemo numquam obcaecati suscipit reprehenderit eveniet tempore ut praesentium qui deleniti dolores. Laboriosam optio doloremque sed!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda blanditiis quo, ducimus quod id nemo numquam obcaecati suscipit reprehenderit eveniet tempore ut praesentium qui deleniti dolores. Laboriosam optio doloremque sed!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda blanditiis quo, ducimus quod id nemo numquam obcaecati suscipit reprehenderit eveniet tempore ut praesentium qui deleniti dolores. Laboriosam optio doloremque sed!</p>
+            <!--Pie de Pagina-->
+
+  </Footer>
 </body>
 
 </html>
