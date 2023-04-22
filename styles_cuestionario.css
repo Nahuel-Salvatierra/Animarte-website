@@ -1,7 +1,8 @@
 .logo {
+  max-width: 4rem;
   border-color: black;
   border-style: solid;
-  border-radius: 50%;
+  border-radius: 4rem;
   background-color: white;
 
 }
