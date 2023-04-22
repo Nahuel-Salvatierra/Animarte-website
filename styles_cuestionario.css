@@ -86,3 +86,11 @@ column2 {
 {
   min-width: 10rem;
 }
+.largo
+{
+  height: 2500px;
+}
+.larg
+{
+  max-height: 400px;
+}
