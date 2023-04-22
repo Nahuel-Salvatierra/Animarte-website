@@ -68,7 +68,7 @@ column2 {
   padding: 20px 10px;
 }
 
-.gallery .insta{
+/* .gallery .insta{
   width: 100%;
   max-width: 350px;
   height: 300px;
@@ -79,5 +79,6 @@ column2 {
 .gallery::after {
   content: "";
   width: 350px;
-}
+} */
+
 
