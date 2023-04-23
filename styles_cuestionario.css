@@ -68,20 +68,6 @@ column2 {
   margin: 0 auto;
   padding: 20px 10px;
 }
-
-/* .gallery .insta{
-  width: 100%;
-  max-width: 350px;
-  height: 300px;
-  object-fit: cover;
-  border-radius: 10px;
-}
-
-.gallery::after {
-  content: "";
-  width: 350px;
-} */
-
 .insta
 {
   min-width: 10rem;
