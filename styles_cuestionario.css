@@ -68,15 +68,32 @@ column2 {
   margin: 0 auto;
   padding: 20px 10px;
 }
-.insta
+#barrasuperior
 {
-  min-width: 10rem;
+  background-color: rgb(16, 1, 41);
 }
-.largo
-{
-  height: 2500px;
+.nav-item{
+  color:aliceblue
 }
-.larg
+#barrasuperior a {
+  color: white;
+}
+
+.boton
 {
-  max-height: 400px;
+  color:rgb(255, 255, 255);
+  background-color: rgb(49, 1, 77);
+  border-radius: 20%;
+  border-left-color: rgb(226, 224, 224);
+  border-top-color: rgb(226, 224, 224);
+  border-bottom-right-radius: black;
+  border-bottom-color: black;
+}
+#botonera_desplegable
+{
+  background-color: rgb(16, 1, 41);
+}
+ul.dropdown-menu.show
+{
+  background-color: rgb(16, 1, 41)
 }
