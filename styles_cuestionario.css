@@ -1,8 +1,8 @@
 .logo {
-  width: 5%;
+  max-width: 4rem;
   border-color: black;
   border-style: solid;
-  border-radius: 50%;
+  border-radius: 4rem;
   background-color: white;
 
 }
@@ -68,16 +68,32 @@ column2 {
   margin: 0 auto;
   padding: 20px 10px;
 }
-
-.gallery img {
-  width: 100%;
-  max-width: 350px;
-  height: 300px;
-  object-fit: cover;
-  border-radius: 10px;
+#barrasuperior
+{
+  background-color: rgb(16, 1, 41);
+}
+.nav-item{
+  color:aliceblue
+}
+#barrasuperior a {
+  color: white;
 }
 
-.gallery::after {
-  content: "";
-  width: 350px;
+.boton
+{
+  color:rgb(255, 255, 255);
+  background-color: rgb(49, 1, 77);
+  border-radius: 20%;
+  border-left-color: rgb(226, 224, 224);
+  border-top-color: rgb(226, 224, 224);
+  border-bottom-right-radius: black;
+  border-bottom-color: black;
+}
+#botonera_desplegable
+{
+  background-color: rgb(16, 1, 41);
+}
+ul.dropdown-menu.show
+{
+  background-color: rgb(16, 1, 41)
 }
